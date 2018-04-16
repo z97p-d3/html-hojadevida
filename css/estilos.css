@@ -1,0 +1,28 @@
+/* CSS Document */
+
+body{
+	background-color: grey;
+}
+
+footer{
+	margin-top: 20px;
+	
+}
+
+img {
+	
+	border-radius: 10px;
+}
+
+#Contenedor{
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size:16px;
+	
+	
+}
+
+#Encabezado{
+	display:block;
+	margin: 0 auto;
+	
+}
