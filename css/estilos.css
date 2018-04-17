@@ -26,3 +26,13 @@ img {
 	margin: 0 auto;
 	
 }
+
+a[href^='#']{
+	
+	color:red;
+}
+
+img[src$='.svg']{
+	border-radius: 50px;
+	
+}
