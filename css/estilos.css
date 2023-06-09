@@ -1,11 +1,22 @@
 /* CSS Document */
 
 body{
-	background-color: grey;
+	background: url(../images/fondo3.jpg) no-repeat fixed center !important;
+	background-size: cover !important;
+
+	background-image: -o-repeating-linear-gradient(rgb(27, 23, 23)) !important;
+	color: wheat !important;
+	
+	
+}
+.imagen-back{
+	opacity: 0.6 ;
 }
 
 footer{
+	background-color: #1b1717 !important;
 	margin-top: 20px;
+	
 	
 }
 
@@ -17,7 +28,7 @@ img {
 #Contenedor{
 	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	font-size:16px;
-	
+
 	
 }
 
@@ -27,10 +38,10 @@ img {
 	
 }
 
-a[href^='#']{
+/* a[href^='#']{
 	
-	color:red;
-}
+	color:rgb(56, 122, 167);
+} */
 
 img[src$='.svg']{
 	border-radius: 50px;
